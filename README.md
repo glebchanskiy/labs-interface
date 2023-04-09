@@ -12,6 +12,7 @@ Run interface:
 git clone https://github.com/glebchanskiy/labs-interface
 cd labs-interface
 
+npm install
 npm start
 ```
 
