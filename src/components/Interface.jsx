@@ -20,12 +20,12 @@ const Interface = (props) => {
   
   return (
     <div>
-      <h1>Labs Web Interface</h1>
+      <h1 className="mt-4">Labs Web Interface</h1>
       <form
         onSubmit={props.onSubmit}
         className={`${styles.formContainer} p-3 border border-default rounded`}
       >
-        <div className="form-group my-2">
+        <div className="form-group mb-3">
           <label htmlFor="label1" className="">
             Choose lab
           </label>
@@ -33,7 +33,7 @@ const Interface = (props) => {
             {services}
           </select>
         </div>
-        <div className="form-group my-2">
+        <div className="form-group my-3">
           <label htmlFor="label2" className="">
             Message
           </label>
