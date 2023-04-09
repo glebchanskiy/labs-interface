@@ -19,7 +19,7 @@ npm start
 
 <br/>
 
-Run microservices application gateway:
+Run microservices application [gateway](https://github.com/glebchanskiy/labs-gateway-service):
 
 ```shell
 git clone https://github.com/glebchanskiy/labs-gateway-service
